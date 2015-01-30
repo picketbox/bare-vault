@@ -26,6 +26,7 @@
             <groupId>org.jboss.modules</groupId>
             <artifactId>jboss-modules</artifactId>
             <version>1.3.4.Final</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -37,7 +38,7 @@
             <groupId>org.jboss.spec.javax.security.jacc</groupId>
             <artifactId>jboss-jacc-api_1.4_spec</artifactId>
             <version>1.0.1.Final</version>
-            <scope>compile</scope>
+            <scope>test</scope>
             <exclusions>
                 <exclusion>
                     <groupId>sun-jaxb</groupId>
